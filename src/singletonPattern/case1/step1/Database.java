@@ -4,7 +4,7 @@ public class Database {
 	private static Database singleton;
 	private String name;
 
-	public Database(String name) {
+	private Database(String name) {
 		super();
 		this.name = name;
 	}
