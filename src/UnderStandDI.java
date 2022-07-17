@@ -29,7 +29,7 @@ public class UnderStandDI {
 class Member {
 	String name;
 	String nickname;
-	public Member() {}
+	private Member() {}
 }
 
 
