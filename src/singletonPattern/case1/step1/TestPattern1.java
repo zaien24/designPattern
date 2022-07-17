@@ -9,7 +9,9 @@ public class TestPattern1 {
 		System.out.println("This is the " + database.getName() + "!!!");
 		
 		database = Database.getInstance("두 번째 database");
-		System.out.println("This is the " + database.getName() + "!!!");		
+		System.out.println("This is the " + database.getName() + "!!!");
+		
+		Database d1 = new Database("1");
 
 	}
 
