@@ -5,8 +5,15 @@ public class Database {
 	private String name;
 
 	private Database(String name) {
-		super();
-		this.name = name;
+//		super();
+//		this.name = name;
+		
+		try {
+			Thread.sleep(100);
+			this.name = name;
+		} catch (Exception e) {
+			
+		}
 	}
 	
 	public static Database getInstance(String name) {
