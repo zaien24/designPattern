@@ -17,9 +17,6 @@ public class Database {
 	}
 	
 	public static Database getInstance(String name) {
-		if (singleton == null) {
-			singleton = new Database(name);
-		}
 		return singleton;
 	}
 
