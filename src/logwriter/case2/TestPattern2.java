@@ -21,10 +21,10 @@ class ThreadSub extends Thread {
 	public void run() {
 		LogWriter logger = LogWriter.getInstance();
 		if (num < 10)
-			logger.log("*** 0 " + num + "***");
+			logger.log("*** 0" + num + " ***");
 		else 
 			logger.log("*** " + num + " ***");
 	}
 }
-
+     
 
