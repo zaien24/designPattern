@@ -12,6 +12,29 @@ public class Person {
 	private String sex;
 	private boolean driverLicence;
 	private boolean married;
+	
+	public Person(String firstName, String lastName, LocalDate birthDate, String addressOne, String addressTwo,
+			String sex, boolean driverLicence, boolean married) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthDate = birthDate;
+		this.addressOne = addressOne;
+		this.addressTwo = addressTwo;
+		this.sex = sex;
+		this.driverLicence = driverLicence;
+		this.married = married;
+	}
+	
+	public Person(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+
+
+
 	public String getFirstName() {
 		return firstName;
 	}
